@@ -278,5 +278,43 @@ Sebagai programmer handal, kita perlu latihan dan terbiasa membuat kode yang efe
       - **initial**, dan
       - **inherit**.
 
-# *Algorithm*
+# *Algorithm and* Data *Structur*
+## *Algorithm*
+Algoritma adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. Adapun kualitas wajib dari suatu algoritma adalah:
+1. *Input* dan *output* harus didefinisikan terlebih dahulu dengan tepat.
+2. Setiap step harus benar-benar *clear* dan tidak ambigu.
+3. Algoritma seharusnya tidak mengandung suatu kode pada bahasa pemrograman tertentu. Algoritma harus dibuat agar dapat digunakan dalam bahasa pemrograman apapun.
 
+Untuk dapat menggunakan semua bahasa pemrograman, yang perlu dipelajari dan dipahami adalah algoritma. Setiap bahasa pemrograman mempunyai dokumentasi *syntax* yang bisa dilihat sebagai panduan. Tidak mungkin menghafal seluruh syntax dalam semua bahasa pemograman.
+
+## *Pseudocode*
+*Pseudocode* adalah menuliskan algoritma dengan umumnya bahasa inggris sebelum diimplementasikan ke dalam bahasa pemrograman tertentu. Cara menulis *pseudocode* adalah sebagai berikut:
+1. Menggunakan HURUF BESAR pada kata kunci (*key commands*). 
+
+   CONTOH: IF number is > 10 THEN …
+2. 1 *statement* =  1 baris 
+3. Gunakan indentasi
+4. *Please be specific*
+5. Tapi tetap simpel
+
+## *Procedural*
+Procedural adalah cara berpikir secara runtun, artinya serangkaian perintah yang berurutan.
+
+## *Conditional*
+*Conditional* digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi. Jika hari ini tidak hujan, maka Bob pergi ke pasar, jika tidak maka Bob di rumah aja. Jika tidak terpenuhi, maka tidak akan dijalankan.
+
+## *Looping*
+Komputer dapat melakukan sebuah proses yang sama berulang-ulang. Jika membutuhkan perulangan dalam kasus tertentu, kita bisa menggunakan *looping*.
+
+## *Recursive*
+*Recursive* adalah pola pikir dalam algoritma yang memanggil *method*/*function* di dalam sebuah *function*.
+
+## Algoritma Harus *General*
+Programmer yang dibutuhkan dan dibayar mahal adalah programmer yang dapat beradaptasi dengan teknologi terbaru. Dengan membuat algoritma secara *general*, kita bisa men-*translate* algoritma tersebut ke dalam bahasa pemrograman apapun.
+
+## Jenis Algoritma
+Ada 2 jenis/pandangan yang harus diketahui dari suatu algoritma:
+1. Gunakan algoritma kita sendiri dalam menyelesaikan masalah (melatih logika kita untuk berpikir).
+2. Gunakan algoritma yang sudah umum disediakan jika dibutuhkan.
+
+Tidak semua kasus dapat diselesaikan dengan algoritma umum yang sudah disediakan. Utamakan membuat sendiri dan mencari referensi jika dibutuhkan.
