@@ -103,7 +103,10 @@ HTML bisa dituliskan tanpa *structure* dan bisa tetap menjalankannya. Akan tetap
 HTML tersusun sebagai kesatuan dari sebuah tingkatan (*family tree relationship*). Saat sebuah *element* berada di dalam *element* lain, maka disebut *child element*. *Element* yang berada diatas *element* lain disebut *parent element*.
 
 ### HTML *Anatomy*
-![](Capture.jpg "HTML")
+![](Capture.jpg)
+1. Tag Pembuka: Terdiri dari nama dari elemen (Misal '<p>' untuk paragraf, '<h1> - <h6>' untuk *heading*, dan lain sebagainya).
+2. Konten: Teks yang akan muncul di dalam *browser*.
+3. Tag Penutup: Fungsinya sama seperti tag pembuka. Tag penutup dibedakan dengan adanya garis miring (</>).
 
 # CSS
 
