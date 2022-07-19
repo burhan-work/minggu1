@@ -36,6 +36,7 @@ Di *Windows Shell*, kita dapat mengetikkan perintah dan itu akan berjalan di jen
    - **rm** digunakan uuntuk menghapus file.
    - **rm -R** atau **rm -d** digunakan uuntuk menghapus direktori.
 
+
 # Git dan GitHub Dasar
 Git dan GitHub merupakan dua platform yang didirikan oleh satu perusahaan dengan tujuan sama serta fitur yang berbeda. Kedua platform ini sangat membantu pekerjaan programmer dalam menyusun kode script secara tim.
 
@@ -54,7 +55,7 @@ File -file yg disimpan menggunakan git akan terlacak seluruh perubahannya, terma
 1. **git init** digunakan untuk membuat repositori baru.
 2. **git status** digunakan untuk menampilkan daftar file yang berubah bersama dengan file yang ingin di tambahkan atau di-commit.
 3. **git add** bisa digunakan untuk menambahkan file ke index.
-4. **git commit** digunakan untuk melakukan commit pada perubahan ke head. Ingat bahwa perubahan apapun yang di-commit tidak akan langsung ke remote repository.
+4. **git commit** digunakan untuk melakukan commit pada perubahan ke head. Ingat bahwa perubahan apapun yang di-commit tidak akan langsung ke remote repository. *Commit* menyimpan riwayat perubahan data pada file.
 5. **git log** merupakan perintah yang akan menampilkan daftar commits yang ada di branch beserta detail-nya.
 6. **git checkout** digunakan untuk mengembalikan kondisi file proyek seperti waktu yang dituju. Akan tetapi, ini bersifat temporer (sementara). Pengembalian ini tidak disimpan dalam database Git. Bisa dikatakan perintah **git checkout** sebagai perintah untuk mengecek kondisi file di setiap commit. Selain itu juga, perintah ini digunakan untuk berpindah dan membuat cabang. Ini bisa digunakan untuk membuat perubahan baru berdasarkan kode di masa lalu.
 7. **git reset**, akan mengembalikan file ke kondisi sebelumnya, kemudian menghapus catatan sejarah commit beikutnya. Perintah ini memiliki tiga argumen atau opsi utama, yaitu:
@@ -68,7 +69,14 @@ File -file yg disimpan menggunakan git akan terlacak seluruh perubahannya, terma
 12. **git push** digunakan untuk mengirimkan perubahan ke *master branch* dari *remote repository* yang berhubungan dengan direktori kerja.
 13. **git remote** akan membuat *user* terhubung ke *remote repository*.
 
+## GitHub *Introduction*
+GitHub merupakan layanan *cloud* yang berguna untuk menyimpan dan mengelola sebuah *project* yang dinamakan *repository*. Cara kerja pada GitHub harus terkoneksi pada internet sehingga tidak perlu meng-*install* sebuah *software* ke dalam perangkat keras. Hal ini memberikan keringanan penyimpanan komputer yang digunakan karena file *project* tersimpan oleh *cloud* GitHub. 
+
+Konsep kerja GitHub pada dasarnya sama dengan Git yaitu dapat menulis *source code* secara individu atau tim. *User interface* yang tersedia pada GitHub lebih menarik dan mudah dipahami oleh pengguna awal. Pekerjaan secara tim, pengguna juga bisa melihat siapa penulis kode dan tanggal berapa kode tersebut dibuat.
+
+
 # HTML
+
 
 # CSS
 
