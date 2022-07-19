@@ -264,7 +264,7 @@ Sebagai programmer handal, kita perlu latihan dan terbiasa membuat kode yang efe
    Properti **align-content** memiliki konsep yang sama seperti **justify-content**. **align-content** digunakan untuk mengatur tata letak dan *space* antar *item child* secara vertikal atau *cross axis*. **align-content** akan berjalan jika *item* lebih dari 1 *line*. **align-content** memiliki *value* yang sama dengan **justify-content**, bedanya ada 1 tambahan *value* yaitu **stretch**.
 
 ### *Flexibility*
-1.**flex-grow**
+1. **flex-grow**
 
    Properti **flex-grow** dapat mengatur *size* suatu *item child* pada *flexbox*. *Value* dari properti **flex-grow** adalah *number* dan tidak boleh negatif.
 2. **flex-shrink**
