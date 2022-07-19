@@ -65,6 +65,8 @@ File -file yg disimpan menggunakan git akan terlacak seluruh perubahannya, terma
 9. **git branch** bisa digunakan untuk me-*list*, membuat atau menghapus *branch*.
 10. **git merge** digunakan untuk menggabungkan sebuah *branch* ke *branch* aktif.
 11. **git config** digunakan untuk mengatur konfigurasi tertentu sesuai keinginan pengguna, seperti email, algoritma untuk diff, username, format file, dll.
+12. **git push** digunakan untuk mengirimkan perubahan ke *master branch* dari *remote repository* yang berhubungan dengan direktori kerja.
+13. **git remote** akan membuat *user* terhubung ke *remote repository*.
 
 # HTML
 
