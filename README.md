@@ -36,7 +36,6 @@ Di *Windows Shell*, kita dapat mengetikkan perintah dan itu akan berjalan di jen
    - **rm** digunakan uuntuk menghapus file.
    - **rm -R** atau **rm -d** digunakan uuntuk menghapus direktori.
 
-
 # Git dan GitHub Dasar
 Git dan GitHub merupakan dua platform yang didirikan oleh satu perusahaan dengan tujuan sama serta fitur yang berbeda. Kedua platform ini sangat membantu pekerjaan programmer dalam menyusun kode script secara tim.
 
@@ -74,9 +73,37 @@ GitHub merupakan layanan *cloud* yang berguna untuk menyimpan dan mengelola sebu
 
 Konsep kerja GitHub pada dasarnya sama dengan Git yaitu dapat menulis *source code* secara individu atau tim. *User interface* yang tersedia pada GitHub lebih menarik dan mudah dipahami oleh pengguna awal. Pekerjaan secara tim, pengguna juga bisa melihat siapa penulis kode dan tanggal berapa kode tersebut dibuat.
 
-
 # HTML
+HTML merupakan bahasa dasar untuk membuat web.
 
+## HTML *Introduction*
+HTML merupakan singkatan dari *HyperText Markup Language* yang digunakan untuk menampilkan konten pada browser. HTML adalah sebuah bahasa yang menggunakan *markup* atau penanda untuk membuat halaman web. Contoh konten yang dapat ditampilkan seperti Text, Image, Video, Link, dan masih banyak lainnya. HTML ini sendiri bersifat statis dimana hanya bertugas menampilkan konten yang diminta oleh developer.
+
+HTML bukanlah sebuah bahasa pemrograman, artinya HTML tidak bisa dinamis mengolah data. Untuk memudahkan dan menambah produktifitas dalam membuat HTML, dibutuhkan yang namanya *tools*. Ada 2 *tools* utama yang harus dipersiapkan untuk membuat HTML yaitu *Browser* dan *Code Editor*.
+
+ ### *Visual Studio Code*
+ *Visual Studio Code* adalah sebuah *code editor* gratis yang dikembangkan oleh tim *engineer* Microsoft yang bisa dijalankan di perangkat *desktop* berbasis Windows, Linux, dan MacOS. *Visual Studio Code* merupakan paket *all in one*, artinya bisa digunakan untuk bahasa pemrograman apapun.
+
+ Beberapa keunggulan dari *Visual Studio Code* di antaranya:
+ 
+ 1. Mudah untuk mengelola *extention*,
+ 2. Memiliki *extention* yang banyak,
+ 3. Kontribusi tampilan,
+ 4. Dukungan bahasa,
+ 5. Text editor gratis,
+ 6. Dapat membuat *Snippet* sendiri,
+ 7. Mudah dalam memahami dan mempelajari *coding*,
+ 8. Dapat membuat *website* secara praktis, dan
+ 9. Dapat mendesain *website* dengan mudah.
+
+## Dasar-dasar HTML
+HTML bisa dituliskan tanpa *structure* dan bisa tetap menjalankannya. Akan tetapi untuk menjalankannya dengan baik diperlukan HTML *Structure*.
+
+### HTML *Structure*
+HTML tersusun sebagai kesatuan dari sebuah tingkatan (*family tree relationship*). Saat sebuah *element* berada di dalam *element* lain, maka disebut *child element*. *Element* yang berada diatas *element* lain disebut *parent element*.
+
+### HTML *Anatomy*
+![](Capture.jpg "HTML")
 
 # CSS
 
