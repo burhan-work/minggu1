@@ -150,6 +150,133 @@ Pada umumnya *text field* pada *browser* diberi kapasitas sebanyak 20 karakter.
 *Deploy* adalah sebuah proses untuk menyebarkan aplikasi yang sudah dikerjakan supaya bisa digunakan oleh orang-orang. Cara men-*deploy* aplikasi yang sudah dikerjakan adalah dengan menggunakan *tools* bernama *Netlify*. Caranya yaitu masuk ke netlify.com lalu *register* seperti biasa menggunakan *email* atau github. Setelah itu masuk ke *tab* **Sites** lalu *drag and drop* seluruh folder html yang ingin di-*deploy*.
 
 # CSS
+CSS yaitu singkatan dari *Cascading Style Sheets*.
+
+## CSS *Introduction*
+CSS adalah bahasa pemrograman yang digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa *mark-up*, seperti HTML (membangun laman HTML). CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs. Dengan CSS, developer bisa mengubah warna menggunakan *font custom*, *editing text format*, mengatur tata letak, dan lainnya.
+
+## Struktur CSS
+CSS memiliki struktur kode dan sintaks dasar yang terdiri dari tiga bagian penting antara lain:
+1. Selektor (*selector*) merupakan kata kunci untuk menentukan elemen HTML yang akan kita beri gaya (*style*).
+2. Blok Deklarasi: Dalam CSS deklarasi berisi properti dari selektor dan nilai dari properti tersebut. Deklarasi diawali dan diakhiri dengan kurung kurawal {….}. Hal inilah yang menghasilkan blok deklarasi.
+3. Properti dan Nilainya: Properti merupakan atribut atau aturan yang akan diterapkan oleh elemen yang dipilih (selektor). Untuk mendefinisikan nilai properti, kita perlu menggunakan tanda titik dua (:) setelah penulisan nama properti. Jika terdapat lebih dari satu properti dalam blok deklarasi maka tiap properti harus kita pisahkan dengan titik koma (;).
+
+## CSS *Comment*
+CSS *Comment* adalah teks yang tidak ditampilkan dan ditafsirkan oleh browser sehingga tidak mempengaruhi desain.Dengan menggunakan CSS *Comment*, kita dapat memberikan penjelasan maksud dari line code yang kita kerjakan. Selain itu, kita juga bisa memanfaatkan komentar untuk mencegah kode CSS tertentu dieksekusi.
+
+## Tiga Cara Menggunakan CSS
+Untuk memasukkan CSS kepada HTML terdapat 3 cara, yaitu:
+1. CSS *Inline*
+
+   Cara pertama dan paling singkat adalah menggunakan CSS *Inline*. CSS *inline* adalah sebuah kode CSS yang disematkan pada elemen apa pun di dalam **body** HTML, langsung menggunakan atribut **style**.
+2. CSS *Internal*
+
+   Cara yang kedua adalah menggunakan CSS *internal*. CSS *internal* adalah CSS yang diletakkan pada bagian **head** suatu halaman HTML.
+3. CSS Eksternal
+
+   Cara ketiga untuk menambahkan CSS ke dalam sebuah halaman HTML adalah menggunakan CSS Eksternal. Yang dimaksud eksternal adalah kita membuat file tersendiri yang berekstensi ( .css). Kemudian file tersebut kita hubungkan ke dalam halaman HTML menggunakan tag **link**. Pada penggunaan CSS eksternal kita tidak perlu menggunakan tag **style**.
+
+## CSS - *Tag Name*
+Kita bisa menggunakan Tag Elemen HTML secara langsung pada CSS. Jika menggunakan Tag Elemen, maka ini bersifat global. Global artinya akan mempengaruhi seluruh Tag Elemen HTML yang ada pada file tersebut
+
+## CSS - *Class Name*
+Kita bisa menggunakan attribut **class** pada elemen HTML, kemudian memanggil nama **class** tersebut pada CSS. HTML yang memiliki **class** yang sama, akan mempunyai *styling* yang sama saat digunakan pada CSS. Gunakan (.) saat memanggil **class** pada CSS.
+
+## CSS - *Multiple Class*
+Kita dapat menggunakan lebih dari 1 **class** yang berbeda untuk 1 elemen HTML. Contoh kasus: Kita memiliki 2 heading. Kemudian kita ingin memiliki warna yang sama, tapi kita ingin format *heading* yang satu huruf besar (*uppercase*) dan *heading* yang huruf kecil (*lowercase*).
+
+## CSS - ID *Name*
+Berbeda dengan *Class Name*. ID *Name* bersifat unik yang artinya hanya ada 1 nama ID pada 1 elemen HTML. Biasanya digunakan jika hanya ada 1 elemen pada 1 *page*. Contohnya *navigation header* dan *footer*. Tidak mungkin kan ada 2 *footer* dalam 1 *page*? Nah jadi kita bisa gunakan ID jika elemen tersebut unik dan hanya ada 1. Gunakan (#namaID) saat memanggil elemen ID HTML pada CSS.
+
+## Perbedaan *Class Name* dan ID *Name*
+Jika hanya ada 1 elemen pada file/halaman HTML, maka gunakan ID *Name* . Contohnya *navigation* dan *footer*. Jika akan ada beberapa elemen HTML yang memiliki *styling*/*desain* yang sama, maka gunakan *Class Name*. Contoh: Kita ingin Heading Blog kita memiliki desain yang sama dan kita ingin setiap link memiliki *styling*/*desain* yang sama.
+
+## *Chaining Selectors*
+*Chaining selector* dapat kita gunakan pada *case*/kasus berikut, yaitu ketika kita memiliki 3 tag elemen HTML pada CSS, namun kita ingin ada 1 elemen HTML yang memiliki styling berbeda.
+
+## *Nested Element*
+Konsep CSS sama dengan HTML yaitu setiap elemen memiliki *parent* dan *child*.
+
+## !*important* CSS
+**!important** CSS berada di level paling atas dari **ID** dan **Class**. Maksudnya adalah jika pada *styling* CSS kita menggunakan **!important**, maka *styling* sebelumnya baik itu ID *Name* atau *Class Name* akan di-*override*.
+
+## *Multiple Selector*
+Sebagai programmer handal, kita perlu latihan dan terbiasa membuat kode yang efektif. Jangan mengerjakan kode yang sama berulang kali. Pada CSS kita bisa membuat kode lebih efisien dan tidak repetitive (melakukan hal yang sama berulang-ulang).
+
+## *Flexbox*
+*Flexbox* adalah cara untuk mengatur *layout*. *Flexbox* direkomendasikan karena penggunaannya yang mudah dan didukung oleh kebanyakan *browser*. *Flexbox* memiliki kemampuan untuk menyesuaikan *layout* secara otomatis dan konsepnya sederhana. *Flexbox* memiliki 1 *parent*/*container* dan bisa beberapa *child*/*item*.
+
+### *Ordering and Orientation*
+1. **flex-direction**
+
+   Properti **flex-direction** digunakan untuk mengatur letak item *child*. Terdapat 4 *value* **flex-direction** yang harus diketahui:
+      - **row (default)**: secara *default* letak item *child* membentuk sebuah baris dari kiri ke kanan.
+      - **row-reverse**: letak item *child* membentuk sebuah baris dari kanan ke kiri.
+      - **column**: letak item *child* membentuk sebuah baris dari atas ke bawah.
+      - **column-reverse**: letak item *child* membentuk sebuah baris dari bawah ke atas.
+2. **flex-wrap**
+
+   **Flex** secara *default* akan membuat tata letak *item children* dalam 1 *line* saja. **Flex** akan menyesuaikan *space* yang ada. Namun jika kamu ingin membatasi jumlah *item children* dalam 1 *line* lalu *item children* yang lain akan pindah ke posisi *line* yang baru, maka kita bisa menggunakan **flex-wrap**. Properti **flex-wrap** memiliki 3 *value*, di antaranya:
+      - **no-wrap (default)**: secara *default* , **flex** tidak menggunakan **flex-wrap**.
+      - **wrap**: **flex** *item* akan memiliki beberapa *line* dari atas ke bawah  jika *space* dalam 1 *line* sudah *full width*.
+      - **wrap-reverse**: kebalikan dari **wrap** yaitu **flex** *item* akan memiliki beberapa *line* dari bawah ke atas  jika *space* dalam 1 *line* sudah *full width*.
+3. **flex-flow**
+
+   Properti **flex-flow** digunakan sebagai *shortcut* untuk *set up* **flex-direction** dan **flex-wrap** bersamaan. Terdapat 4 *value* pada **flex-flow**:
+      - **row nowrap**,
+      - **column wrap**,
+      - **column reverse**, dan
+      - **row-reverse wrap-reverse**.
+4. **Order**
+
+   Properti **order** pada **flex** adalah berfungsi untuk *ordering item* mana yang ingin kita atur posisinya berdasarkan urutan *order*. Terdapat 3 *value* dari properti **order**:
+      - **-1** : *Item child* yang di-*set order* -1, maka *item child* tersebut akan berada di *ordering* paling awal atau paling kiri.
+      - **0 (default)** : **Flex** secara *default* memiliki *order* 0 pada setiap *item child*. Ini berarti **0** akan membuat *item child* sesuai urutan pada HTML.
+      - **1**: *Item child* yang di-*set order* 1, maka *item child* tersebut akan berada di *ordering* paling akhir atau paling kanan.
+### *Alignment*
+1. **justify-content**
+
+   Properti **justify-content** digunakan untuk mengatur tata letak dan *space* antar *item child* secara horizontal atau *main axis*. **justify-content** memiliki 6 *value* yaitu:
+      - **flex-start**,
+      - **flex-end**,
+      - **center**,
+      - **space-between**,
+      - **space-around**, dan
+      - **space-evenly**.
+2. **align-items**
+
+   Properti **align-items** digunakan untuk mengatur *align* dari *item child* secara vertikal atau *cross axis*. **align-items** memiliki 5 value:
+      - **flex-start**,
+      - **flex-end**,
+      - **center**,
+      - **baseline**, dan
+      - **stretch**.
+3. **align-self**
+
+   Properti **align-self** digunakan untuk mengatur *align item* pada masing-masing *item*. **align-self** memiliki 5 *value* yang sama dengan **align-items**:
+      - **flex-start**,
+      - **flex-end**,
+      - **center**,
+      - **baseline**, dan
+      - **stretch**.
+4. **align-content**
+
+   Properti **align-content** memiliki konsep yang sama seperti **justify-content**. **align-content** digunakan untuk mengatur tata letak dan *space* antar *item child* secara vertikal atau *cross axis*. **align-content** akan berjalan jika *item* lebih dari 1 *line*. **align-content** memiliki *value* yang sama dengan **justify-content**, bedanya ada 1 tambahan *value* yaitu **stretch**.
+
+### *Flexibility*
+1.**flex-grow**
+
+   Properti **flex-grow** dapat mengatur *size* suatu *item child* pada *flexbox*. *Value* dari properti **flex-grow** adalah *number* dan tidak boleh negatif.
+2. **flex-shrink**
+
+   **flex-shrink** adalah properti yang membuat *size* suatu *item child* mengecil secara relatif terhadap *item child* yang lainnya. *Value* dari properti **flex-shrink** adalah *number* (*Number* negatif dianggap tidak valid). Semakin besar *value number* dari properti ini, maka semakin kecil *size* dari suatu *item child*.
+3. **flex-basis**
+
+   **flex-basis** adalah properti yang sama fungsinya seperti **width**. **flex-basis** mengatur *width* dari setiap *item child*. Jika kita telah menggunakan **width**, maka **flex-basis** akan melakukan *override* properti **width**. Namun, **flex-basis** tidak akan berjalan jika kita telah menggunakan **min-width** dan **max-width**. Properti **flex-basis** memiliki *value*:
+      - **auto**,
+      - **number**,
+      - **initial**, dan
+      - **inherit**.
 
 # *Algorithm*
 
