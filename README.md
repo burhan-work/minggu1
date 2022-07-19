@@ -103,10 +103,51 @@ HTML bisa dituliskan tanpa *structure* dan bisa tetap menjalankannya. Akan tetap
 HTML tersusun sebagai kesatuan dari sebuah tingkatan (*family tree relationship*). Saat sebuah *element* berada di dalam *element* lain, maka disebut *child element*. *Element* yang berada diatas *element* lain disebut *parent element*.
 
 ### HTML *Anatomy*
-![](Capture.jpg)
-1. Tag Pembuka: Terdiri dari nama dari elemen (Misal '<p>' untuk paragraf, '<h1> - <h6>' untuk *heading*, dan lain sebagainya).
+1. Tag Pembuka: Terdiri dari nama dari elemen. Tag adalah sebuah penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut.
 2. Konten: Teks yang akan muncul di dalam *browser*.
 3. Tag Penutup: Fungsinya sama seperti tag pembuka. Tag penutup dibedakan dengan adanya garis miring (</>).
+
+### HTML *Element*
+HTML *element* didefinisikan dengan *opening tag*, *content*, dan *closing tag*. Elemen dalam HTML adalah sebuah komponen yang menyusun dokumen HTML. Elemen kadang juga disebut sebagai *node*, karena ia merupakan salah satu jenis *node* yang menyusun dokumen HTML dalam diagram HTML *tree*.
+
+### HTML *Attributes*
+Attribut merupakan *properties* dari sebuah HTML *Element*. Atribut adalah kata khusus yang berada di dalam tag pembuka. Atribut juga disebut sebagai *modifier* yang akan menentukan perilaku dari elemen. Atribut dapat ditambahkan pada elemen manapun.
+
+### HTML *Comment*
+*Comment* pada HTML adalah sebuah *tag/element* yang digunakan untuk meninggalkan sebuah catatan pada dokumen HTML. Catatan tersebut bisa berupa deskripsi/tujuan suatu bagian kode HTML, atau juga bisa digunakan untuk memberikan rekomendasi, atau bahkan untuk menyembunyikan sementara sebuah kode HTML dengan tujuan *debug*. Komentar pada HTML akan diabaikan oleh *web browser*, ia tidak akan ditampilkan sehingga *user* tidak akan melihat apa-apa. *Comment* bahkan bisa mempermudah orang lain untuk memahami struktur kode HTML dan akan membuat kode semakin mudah dibaca.
+
+## Cara Menjalankan HTML
+HTML bisa dijalankan dengan cara mencari lokasi file HTML yang sudah dibuat dan disimpan, lalu membukanya *via browser*. Kekurangan menggunakan cara ini yaitu perlu *refresh* halaman jika ada perubahan *content*. Cara lain yaitu menggunakan *Live Server* pada *Visual Studio Code*.
+
+## Cara Membaca Dokumentasi
+Untuk melihat seluruh *element* yang disediakan oleh HTML, kita bisa cek dokumentasi yang disediakan. Tidak perlu menghafal seluruh HTML *Element*, cukup mengetahui format konten seperti apa yang dibutuhkan, lalu kita bisa cek pada dokumentasi *syntax element* tersebut.
+
+## HTML *Tag Populer*
+
+### IMG
+*Tag* **img** digunakan untuk menampilkan gambar. Gambar dapat ditampilkan melalui file lokal komputer atau menggunakan *link* dari internet. *src* atau *source* adalah  atribut untuk memberitahukan sumber gambar.
+
+### Video
+Jika **img** untuk menampilkan gambar, maka sesuai namanya *tag* **video** untuk menampilkan video. Video merupakan *double closing tag* sehingga konten ditaruh di antara *opening* dan *closing*.
+
+### *Table*
+Tabel adalah hal yang umum dan sering digunakan dalam *website*. Tabel adalah daftar yang berisi susunan informasi atau data yang ditampilkan dalam bentuk baris dan kolom. Dengan tabel, data atau informasi yang ditampilkan akan terlihat rapi, atau bahkan dalam bentuk struktur yang lebih kompleks. Tujuan pembuatan tabel adalah untuk menyajikan informasi data secara ringkas dalam bentuk daftar, sehingga akan lebih mudah untuk dibaca. Terdapat 3 *tag* utama sebagai syarat untuk membuat tabel HTML, antara lain: *tag* **table**, **tr**, dan **td**. Selain 3 *tag* tersebut, terdapat juga *tag* lain yang bersifat opsional antara lain: *tag* **thead**, **tbody**, **th**, **tfoot**, dan sebagainya.
+
+### HTML *Form*
+*Form* merupakan bagian pada HTML yang dapat digunakan untuk membuat elemen *Form* pada halaman Web. Berikut merupakan beberapa elemen *Form*:
+1. **Text fields** digunakan ketika pengguna ingin mengisi *field* seperti kata, angka, dan lainnya.
+Pada umumnya *text field* pada *browser* diberi kapasitas sebanyak 20 karakter.
+2. **Text area** merupakan elemen yang dapat menyimpan kata dan dapat diperluas jika pengguna memasukkan lebih banyak *text* sehingga dapat dimasukkan pada elemen *text area*.
+3. **Radio Buttons** digunakan ketika memerlukan *form* yang dapat memilih salah satu di antara beberapa pilihan.
+4. **Checkbox** digunakan ketika memerlukan form yang dapat memilih lebih dari satu pilihan.
+5. **Drop-down box** biasanya digunakan ketika memilih satu pilihan di antara banyak pilihan.
+6. **Button** digunakan untuk membuat sebuah tombol, sehingga pengguna dapat melakukan suatu aksi.
+
+## *Semantic* HTML
+*Semantic* artinya menggunakan elemen HTML yang sesuai dengan kebutuhan konten, dengan kata lain elemen semantik adalah elemen-elemen yang menyatakan makna atau tujuan dari elemen itu sendiri. Salah satu keuntungan menggunakan elemen semantik adalah dokumen HTML akan mudah untuk dibaca. Kegunaan lain dari *semantic* adalah meningkatkan *Accessibility*, meningkatkan SEO, dan lebih mudah di*maintain*.
+
+## *Deploy* HTML
+*Deploy* adalah sebuah proses untuk menyebarkan aplikasi yang sudah dikerjakan supaya bisa digunakan oleh orang-orang. Cara men-*deploy* aplikasi yang sudah dikerjakan adalah dengan menggunakan *tools* bernama *Netlify*. Caranya yaitu masuk ke netlify.com lalu *register* seperti biasa menggunakan *email* atau github. Setelah itu masuk ke *tab* **Sites** lalu *drag and drop* seluruh folder html yang ingin di-*deploy*.
 
 # CSS
 
